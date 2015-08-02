@@ -1,0 +1,8 @@
+language: csharp
+solution: Result.sln
+sudo: false
+install:
+  - ./scripts/restore
+script:
+  - ./scripts/build
+  - ./scripts/test

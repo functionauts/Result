@@ -1,0 +1,4 @@
+#!/bin/bash
+
+xbuild /p:Configuration=Release Result/Result.fsproj
+xbuild /p:Configuration=Debug Result.Tests/Result.Tests.fsproj
