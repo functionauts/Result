@@ -9,7 +9,7 @@
     <RootNamespace>Result.Tests</RootNamespace>
     <AssemblyName>Result.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>
+    <TargetFSharpCoreVersion>3.259.3.1</TargetFSharpCoreVersion>
     <Name>Result.Tests</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
