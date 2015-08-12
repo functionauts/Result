@@ -1,6 +1,8 @@
 language: csharp
 solution: Result.sln
 sudo: false
+env:
+  - VERBOSITY=diagnostic
 install:
   - ./scripts/restore
 script:

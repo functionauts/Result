@@ -1,4 +1,6 @@
 #!/bin/bash
 
-xbuild /p:Configuration=Release Result/Result.fsproj
-xbuild /p:Configuration=Debug Result.Tests/Result.Tests.fsproj
+: ${VERBOSITY:="normal"}
+
+xbuild /p:Configuration=Release /v:$VERBOSITY Result/Result.fsproj
+xbuild /p:Configuration=Debug /v:$VERBOSITY Result.Tests/Result.Tests.fsproj
